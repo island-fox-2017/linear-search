@@ -4,19 +4,15 @@
 console.log("Linear Search")
 let linearSearch = (target, values) => {
   //write your code here
-  let result = 0;
   for(let i = 0; i < values.length; i++)
   {
     if(values[i] == target)
     {
-      result++;
+      return i;
     }
   }
-  if (result == 0)
-  {
-      result = -1;
-  }
-  return result;
+
+  return -1;
 }
 
 let random_numbers = [ 6, 29, 18, 2, 72, 19, 18, 10, 37 ];
