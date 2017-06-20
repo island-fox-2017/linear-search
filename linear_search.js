@@ -29,6 +29,11 @@ console.log("Global Linear Search")
 let globalLinearSearch = (target, values) => {
 let posisi = [];
   //write your code here
+  //buat array penampung posisi indeks
+  //buat perulangan sebanyak panjang array masukan
+  //dengan kondisi cari karakter yang dicari
+  //jika ketemu push indeks ke array penampung
+  //jika sudah selesai return array penampung
   for(let i = 0; i < banana_arr.length; i++){
     if(banana_arr[i] == 'a'){
       posisi.push(i);
