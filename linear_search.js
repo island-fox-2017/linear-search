@@ -21,16 +21,15 @@ console.log(linearSearch(9, random_numbers));
 
 // Release 1
 console.log("Global Linear Search")
-let globalLinearSearch = (target,
-   values) => {
-     let tampung = [];
+let globalLinearSearch = (target,values) => {
+  let findingIndex = [];
   for (let i = 0; i < values.length; i++) {
     if (target == values[i]) {
-       tampung.push(i);
+       findingIndex.push(i);
     }
   }
-    return "Huruf tersebut berada di index " +tampung;
-  }
+  return "Huruf tersebut berada di index " +tampung;
+}
 
 
 let banana_arr = "banana".split("");
