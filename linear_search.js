@@ -32,7 +32,7 @@ let globalLinearSearch = (target, values) => {
       arr.push(i);
     }
 
-    
+
   }return arr;
   //write your code here
 
