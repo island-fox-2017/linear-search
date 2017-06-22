@@ -31,6 +31,8 @@ let globalLinearSearch = (target, values) => {
     if(target==values[i]){
       arr.push(i);
     }
+
+    
   }return arr;
   //write your code here
 
